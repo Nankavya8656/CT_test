@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden !important;
+}
+:root {
+    --primary-color: #414f6b;
+    --white-color: #fff;
+    --black-color: #000;
+  }
+
+.name {
+    color: rgb(75, 71, 71);
+    font-size: 100px;
+    font-weight: 60px;
+    margin-left: 29rem;
+    margin-top: 220px;
+    padding: 0%;
+}
+
+.name1 {
+    color: rgb(35, 35, 87);
+    font-size: 100px;
+    font-weight: 60px;
+    /* margin-top: 00px; */
+    margin-right: 220rem;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.container-fluid {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0);
+    padding-left: var(--bs-gutter-x, 0);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid,
+.container-sm,
+.container-lg,
+.container-md,
+.container-xl,
+.container-xxl {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.navbar {
+    position: absolute !important;
+    top: 1rem;
+    right: 10%;
+    
+}
+
+.navbar-link {
+    font-size: 1.3rem;
+    display: inline-block;
+    justify-content: space-evenly;
+    margin: 0 3rem;
+    color: white;
+    transition: transform 0.5s;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+}
+.logo:hover,
+.navbar-link:hover {
+  transform: scale(1.2);
+  color: var(--white-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.section-1 {
+    width: auto;
+    height: 100vh;
+    background: url('image/MountainsBanner.png') no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.logo {
+    position: absolute;
+    top: 1rem;
+    left: 16%;
+    transition: transform 0.5s;
+}
+
+.background_pic {
+    position: absolute;
+    top: 1rem;
+    left: 13%;
+    transition: transform 0.5s;
+}
+.background_pic :hover,
+.navbar-link2:hover {
+  transform: scale(1.2);
+  color: var(--primary-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+.navbar2 {
+    position: absolute;
+    top: 2rem;
+    right: 16%;
+}
+
+.sticky-nav {
+    height: 6.7rem;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.navbar-link2 {
+    font-size: 1.5rem;
+    display: inline-block;
+    justify-content: space-evenly;
+    margin: 0 3rem;
+    color: var(--primary-color);
+    transition: transform 0.5s;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: 1px solid var(--primary-color);
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+}
+
+.sec-2 {
+    width: 100%;
+    height: 100vh;
+    background: url("image/Bg.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.h-pannel {
+    width: 62%;
+}
+
+.History {
+    margin-top: 5rem;
+}
+
+.serial-no {
+    margin-left: 20rem;
+}
+
+.h-text {
+    flex-direction: column;
+    width: 94%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    left: 10%;
+    margin-left: 26rem;
+    right: 120rem;
+}
+
+.Pagechange-bg {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background-color: rgb(72, 70, 70);
+    bottom: 0;
+    padding: 3rem;
+}
+
+.carousel-item a {
+    cursor: default;
+}
+
+.tab-container {
+    position: relative;
+    width: 67%;
+}
+
+.thumbnail {
+    margin: 0 0.3rem;
+}
+
+.thumbnail img {
+    height: 80%;
+    width: 100%;
+}
+
+.blog .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -20%;
+}
+
+.blog .carousel-indicators:hover {
+    cursor: pointer;
+}
+
+/* The color of the indicators */
+.blog .carousel-indicators li {
+    background: rgba(231, 231, 231, 0.3);
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+    background: var(--white-color);
+}
+
+.section-3 {
+    width: 100%;
+    height: 85vh;
+    position: relative;
+}
+
+.climb-text-container {
+    position: relative;
+    left: 18%;
+}
+
+.climb-text-section {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0;
+}
+
+.climb-text {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0 2rem;
+    width: 60%;
+}
+
+.switch-container {
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+.tab-content {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.tab-bg1 {
+    background: url('image/tab1.png') no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    background-position: bottom;
+}
+
+.tab-bg2 {
+    background: url('image/tab2.png') no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    background-position: bottom;
+}
+
+.schedule-container {
+    position: absolute;
+    top: 15%;
+    left: 16%;
+    z-index: 1;
+}
+
+.nav-tabs .nav-link {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    left: 138%;
+    color: rgb(175, 182, 197);
+    letter-spacing: -0.1rem;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: var(--primary-color);
+    background-color: rgb(175, 182, 197) !important;
+    border-color: var(--primary-color) !important;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-thickness: 1px;
+    letter-spacing: -0.1rem;
+    border-bottom: none;
+    border-top: none;
+}
+
+.schedule {
+    margin: 3rem 0 1rem 5.4rem;
+    transform: scale(1.1);
+}
+
+.schedule-text {
+    display: flex;
+    font-weight: 300;
+    opacity: 0.7;
+    margin-top: 0.8rem;
+    padding: 0 1rem;
+    margin-left: 2.4rem;
+}
+
+.schedule-dates {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin: 0 2rem;
+}
+
+.schedule-events {
+    margin-left: 4rem;
+}
+
+.schedule-dates p,
+.schedule-events p {
+    font-size: 1.7rem;
+}
+
+.footer {
+    height: 8rem;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    /* background-color: var(--primary-color); */
+    display: flex;
+}
+
+.footer-logo {
+    position: absolute;
+    align-self: center;
+    display: flex;
+    width: 18rem;
+    height: 5rem;
+    left: 16%;
+}
+.copy {
+    position: absolute;
+    right: 16%;
+    align-self: center;
+  }
+  @media (max-width: 1500px) {
+    html {
+      font-size: 35%;
+    }
+    .sec-1 {
+        height: 40vh;
+      width: auto;
+      
+    }
+  
+    .Pagechange-bg {
+      padding: 7rem;
+    }
+  }
+  
+  @media (max-width: 1100px) {
+    html {
+      font-size: 40%;
+    }
+  }
+  @media (max-width: 775px) {
+    .name,.name1 {
+        font-size: 50px;
+    }
+  }
+  
+  @media (max-height: 1400px) {
+    .sec-1 {
+      width: auto;
+      height: 100vh;
+    }
+  
+    .logo img {
+      width: 5rem;
+      height: 5rem;
+    }
+  
+    .sticky-nav {
+      width: 100%;
+    }
+  
+    .sticky-nav img {
+      width: 18rem;
+      height: 5rem;
+    }
+  
+    .sec-2 {
+      width: 100%;
+      height: 105vh;
+    }
+  
+    .col-md-3 {
+      padding-right: 2px !important;
+      padding-left: 2px !important;
+    }
+  
+    .h-text {
+      width: 90%;
+    }
+  
+    .History img {
+      height: 13rem;
+      width: 24rem;
+    }
+  
+    .h-text {
+      font-size: 1.8rem;
+    }
+  
+    .climb-text {
+      font-size: 1.8rem;
+    }
+    .climb img {
+      height: 13rem;
+      width: 24rem;
+    }
+  
+    .climb-text {
+      width: 52%;
+    }
+  
+    .section-3 {
+      height: 90vh;
+    }
+  
+    .schedule-container img {
+      height: 25rem;
+      width: 40rem;
+    }
+  }
+  
+  @media (max-width: 1400) {
+    .section-1 {
+      height: 46vh;
+    }
+  }
+  
+  @media (min-width: 770px) {
+    .accordion {
+      display: none;
+    }
+  }
+  
+ 
